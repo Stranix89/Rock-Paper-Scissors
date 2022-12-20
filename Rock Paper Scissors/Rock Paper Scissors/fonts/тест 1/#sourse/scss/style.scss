@@ -1,0 +1,238 @@
+@import "nullstyle.scss";
+
+@import url("https://fonts.googleapis.com/css2? family= PT+Sans:ital,wght@0,400;0,700;1,400 & family= Titillium+Web:ital,wght@0,400;0,700; 1400");
+
+.about {
+	&__body {
+		max-width: 823px;
+		margin: 0px auto;
+		font-family: "PT+Sans";
+		background-color: rgb(184, 152, 152);
+	}
+	&__header {
+		margin: 0px 0px 65px 0px;
+	}
+	&__title {
+		margin: 0px 0px 30px 0px;
+		padding: 10px 0px 0px 0px;
+	}
+	&__subtitle {
+		max-width: 688px;
+		text-transform: uppercase;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 25.89px;
+		margin: 0px 0px 0px 285px;
+	}
+	&__row {
+		display: flex;
+		margin: 0px --15px;
+	}
+	&__column {
+		padding: 0px 15px;
+		flex: 0 0 33.333%;
+	}
+	&__content {
+		margin: -45px 10px 30px 20px;
+		padding: 0px 0px 10px 0px;
+	}
+	&__text {
+		font-size: 20px;
+	}
+	&__list {
+		padding: 0 0 0 25px;
+		font-weight: 400;
+	}
+	&__img {
+		margin: 5px 0px 10px 0px;
+	}
+	&__span {
+		font-style: italic;
+	}
+}
+
+.title {
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 8.95px;
+	position: relative;
+	text-align: center;
+	&::after {
+		content: "";
+		position: absolute;
+		width: 250px;
+		bottom: 0;
+		height: 1px;
+		left: 50%;
+		background-color: #000;
+		margin: 0px 0px -10px -130px;
+	}
+}
+
+.site {
+	&__body {
+		max-width: 823px;
+		margin: 0px auto;
+		font-family: "PT+Sans";
+		background-color: rgb(175, 179, 129);
+	}
+
+	&__header {
+		margin: 0px 0px 65px 0px;
+	}
+
+	&__title {
+		max-width: 688px;
+		font-size: 25px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 8.95px;
+		position: relative;
+		text-align: center;
+		margin: 0px 0px 0px 45px;
+		padding: 10px 0px 0px 0px;
+	}
+
+	&__content {
+		margin: -45px 10px 30px 20px;
+		padding: 0px 0px 10px 0px;
+	}
+
+	&__text {
+		font-size: 20px;
+	}
+	&__span {
+		font-style: italic;
+	}
+
+	&__hraf:visited {
+		color: red;
+	}
+	&__list {
+		margin: 10px 0px 0px 45px;
+	}
+}
+
+.script {
+	&__body {
+		max-width: 823px;
+		margin: 0px auto;
+		font-family: "PT+Sans";
+		background-color: rgb(125, 199, 170);
+	}
+
+	&__header {
+		margin: 0px 0px 65px 0px;
+	}
+
+	&__title {
+		max-width: 688px;
+		font-size: 25px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 8.95px;
+		position: relative;
+		text-align: center;
+		margin: 0px 0px 0px 45px;
+		padding: 10px 0px 0px 0px;
+	}
+
+	&__content {
+		margin: -45px 10px 30px 20px;
+		padding: 0px 0px 10px 0px;
+	}
+
+	&__text {
+		font-size: 20px;
+	}
+
+	&__list {
+		margin: 10px 0px 10px 0px;
+		padding: 0 0 0 25px;
+		font-weight: 400;
+	}
+
+	&__img {
+		margin: 5px 0px 10px 0px;
+	}
+}
+
+.server {
+	&__body {
+		max-width: 823px;
+		margin: 0px auto;
+		font-family: "PT+Sans";
+		background-color: rgb(168, 153, 189);
+	}
+
+	&__header {
+		margin: 0px 0px 65px 0px;
+	}
+
+	&__tittle {
+		max-width: 688px;
+		font-size: 25px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 8.95px;
+		position: relative;
+		text-align: center;
+		margin: 0px 0px 0px 45px;
+		padding: 10px 0px 0px 0px;
+	}
+
+	&__content {
+		margin: -45px 10px 30px 20px;
+		padding: 0px 0px 10px 0px;
+	}
+
+	&__text {
+		font-size: 20px;
+	}
+}
+
+.topbutton {
+	width: 100px;
+	border: 2px solid #ccc;
+	background: #f7f7f7;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+	cursor: pointer;
+	color: rgb(59, 148, 250);
+	font-family: verdana;
+	font-size: 12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+.fotter {
+	max-width: 823px;
+	margin: 0px auto;
+	background-color: rgb(228, 238, 136);
+
+	&__text {
+		padding: 10px 0px 0px 20px;
+		font-family: "PT+Sans";
+		letter-spacing: 3px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	&__list {
+		padding: 0px 0px 20px 0px;
+	}
+
+	&__image {
+		margin: 2px 0px 15px 0px;
+	}
+
+	&__hraf:visited {
+		color: red;
+	}
+}
